@@ -1,0 +1,7 @@
+[{
+    // "/" -> "/index.html"
+    "from": "https://nerdgrass.cloudant.com/cabin/_design/app/_rewrite",
+    "to": "index.html",
+    "method": "GET",
+    "query": {}
+}]
