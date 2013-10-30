@@ -21,15 +21,16 @@ html
   body
     nav
       h1.name
-        a(href="#{data.baseUrl}") My Name
+        a(href="#{data.baseUrl}")
+          img.name(src="/images/alex-boerstler-logo-l.png")
       .menu.icon-menu
       ul.nav-links
         li.text-link
-          a(href="#{data.baseUrl}about.html") about
+          a(href="#{data.baseUrl}about.html") About
         li.text-link
-          a(href="#{data.baseUrl}projects.html") projects
+          a(href="#{data.baseUrl}projects.html") Work
         li.text-link
-          a(href="#{data.baseUrl}archives.html") archives
+          a(href="#{data.baseUrl}archives.html") Contact
 
       .social-media
         a.icon-github(href="https://github.com/colinwren")

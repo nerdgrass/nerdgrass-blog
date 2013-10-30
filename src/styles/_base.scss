@@ -1,5 +1,32 @@
 // Choose one of these to be your mainTheme color
-$green: hsl(151, 65%, 60%);
+
+// Color Palette
+$lighter-green:#C2C6B0;
+$light-green:#B9BFA1;
+$green:#9DA483;
+$dark-green:#1E2613;
+$darker-green:#171E0D;
+
+$lighter-mint:#C2C6B0;
+$light-mint:#B9BFA1;
+$mint:#9DA483;
+$dark-mint:#898E6B;
+$darker-mint:#6F7250;
+
+$lighter-yellow:#E4E5C3;
+$light-yellow:#DCE2AF;
+$yellow:#C8CC92;
+$dark-yellow:#BBBC7E;
+$darker-yellow:#AAAA6A;
+
+$lighter-brown:#917F70;
+$light-brown:#84705D;
+$brown:#7A654E;
+$dark-brown:#665340;
+$darker-brown:#5B4736;
+
+// Old
+// $green: hsl(151, 65%, 60%);
 $blue: hsl(216, 65%, 60%);
 $orange: hsl(6, 90%, 70%);
 $purple: hsl(260, 38%, 56%);
@@ -11,8 +38,8 @@ $codeFont: Monaco, Consolas, monospace;
 $postFont: 'Merriweather', serif;
 $headerFont: 'Open Sans', sans-serif;
 
-$mainTheme: $blue;
-$baseTextColor: $offBlack;
+$mainTheme: $green;
+$baseTextColor: $dark-green;
 $lightTextColor: $grey;
 
 @mixin breakpoint($point) {
@@ -30,6 +57,7 @@ $lightTextColor: $grey;
 }
 
 body {
+  background: $lighter-green;
   margin: 0;
   color: $baseTextColor;
   -webkit-font-smoothing: antialiased;
